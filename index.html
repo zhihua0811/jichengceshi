@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>我的Playwright演示站点</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <h1>欢迎来到我的网站！</h1>
+    <button id="clickMeBtn">点击我</button>
+    <p id="message"></p>
+
+    <script>
+        document.getElementById('clickMeBtn').addEventListener('click', function() {
+            document.getElementById('message').innerHTML = '按钮被点击了！';
+        });
+    </script>
+</body>
+</html>
